@@ -1,3 +1,11 @@
+# react-homepage-list-myapps
+
+### a homepage listing all apps deployed to heroku, surge, gh-pages using react 
+
+### [Deployment with gh-pages](http://rkloecker.github.io/react-homepage-list-myapps)
+
+### based on express api [express-deployed-apps](https://github.com/rkloecker/express-deployed-apps) 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
