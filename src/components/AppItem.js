@@ -1,7 +1,7 @@
 import React from "react";
 
 export default ({
-  item: { title, description_long, description_short, url }
+  item: { title, description_long, description_short, url, repo_url }
 }) => {
   return (
     <div className="col-lg-4 mt-2">
@@ -12,9 +12,12 @@ export default ({
         </div>
         <ul className="list-group list-group-flush">
           <li className="list-group-item">{description_short}</li>
+          <li className="list-group-item">
+            <a href={url}>{url}</a>
+          </li>
         </ul>
         <div className="card-body">
-          <a href={url}>{url}</a>
+          <a href={repo_url}>{repo_url}</a>
         </div>
       </div>
     </div>
